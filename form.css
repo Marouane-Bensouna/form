@@ -1,4 +1,4 @@
-/* ------ RESET ------ */
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
     padding-top: 40px;
 }
 
-/* ------ CARTE ------ */
+/* CARTE */
 .form-card {
     background: #fff;
     width: 900px;
@@ -29,7 +29,7 @@ body {
     margin-bottom: 25px;
 }
 
-/* ------ TITRES SECTIONS ------ */
+/* TITRES SECTIONS */
 .section-title {
     font-size: 12px;
     color: #a9b4c4;
@@ -38,7 +38,7 @@ body {
     text-transform: uppercase;
 }
 
-/* ------ GRID ------ */
+/* GRID */
 .grid-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -48,10 +48,11 @@ body {
 .grid-4 {
     display: grid;
     grid-template-columns: 2fr 1.5fr 1fr;
+    margin-top: 10px;
     gap: 30px 50px;
 }
 
-/* ------ CHAMPS ------ */
+/* CHAMPS */
 .field {
     display: flex;
     flex-direction: column;
@@ -74,29 +75,22 @@ body {
     outline: none;
 }
 
-.select {
-    background: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23AAB3C0' stroke-width='1.4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") 
-        no-repeat right center;
-    -webkit-appearance: none;
-    appearance: none;
-}
-
-/* ------ BOUTON ------ */
+/* BOUTON */
 .next-btn {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
-    width: 55px;
-    height: 55px;
+    bottom: 5px;
+    right: 5px;
+    width: 60px;
+    height: 60px;
     border: none;
-    border-radius: 14px;
+    border-radius: 15px;
     background: #22d3f3;
     color: white;
-    font-size: 28px;
+    font-size: 20px;
     cursor: pointer;
     box-shadow: 0px 10px 25px rgba(34, 211, 243, 0.4);
 }
 
 .next-btn:hover {
-    filter: brightness(1.05);
+    filter: brightness(1.1);
 }
